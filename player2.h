@@ -1,7 +1,7 @@
 #ifndef player2_H
 #define player2_H
 
-#include <player.h>
+#include "player.h"
 
 #include "map.h"
 
