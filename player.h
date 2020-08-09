@@ -10,8 +10,8 @@ class player
         player(const player&);    //constructor de copiere
         player(int,int);          //construcotrul cu parametrii
         virtual void move(map &harta)=0;//functie virtuala pentru mutarea fiecarui tip de cautator
-        int getstatus();          //functie care returneaza statuul
-        void makestatus(int);     //functie care schimba statusul cu un numar dat
+        int getstatus();          //functie care returneaza statusul
+        void makestatus(int);     //functie care schimba statusul
     protected:
         int xposition;
         int yposition;
